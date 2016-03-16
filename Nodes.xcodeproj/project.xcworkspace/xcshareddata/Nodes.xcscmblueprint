@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5F9ECC59827196513873AAE8C97A22C064258E6B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5F9ECC59827196513873AAE8C97A22C064258E6B" : 0,
+    "9F236EF114F8DC94A58BF093AAF72AE70D5E6B10" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3928C1CC-1F71-459A-BCCF-EC4E7B4FFA26",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5F9ECC59827196513873AAE8C97A22C064258E6B" : "Intro%20to%20Shat\/",
+    "9F236EF114F8DC94A58BF093AAF72AE70D5E6B10" : "..\/Documents\/C++workspace\/NodeProject"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Nodes",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Nodes\/Nodes.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ForrestThacker\/Intro-to-Shat.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5F9ECC59827196513873AAE8C97A22C064258E6B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ForrestThacker\/NodeProject.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9F236EF114F8DC94A58BF093AAF72AE70D5E6B10"
+    }
+  ]
+}
