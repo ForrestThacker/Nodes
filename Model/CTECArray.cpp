@@ -73,6 +73,11 @@ void CTECArray<Type>::set(int position, const Type& value)
 		}
 	}
 }
+/*1. Check that the array exist.
+  2. Point to the head.
+  3. Loop over nodes until valuis fond.
+  4. Retrun index or -1 is not found.
+*/
 
 template <class Type>
 Type CTECArray<Type>::get(int position)

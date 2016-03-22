@@ -64,4 +64,5 @@ Type CTECList<Type> :: removeFromEnd()
 				current = current->getNext();
 			}
 			returnValue = end->getValue();
-}
+        }
+        }   }
