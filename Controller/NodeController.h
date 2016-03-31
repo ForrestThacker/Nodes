@@ -21,6 +21,11 @@ private:
 	CTECArray *notHipsterInts;
 	Timer arrayTimer;
 	void testLists();
+    void searchTest();
+    
+    void swap(int first, int second);
+    
+    
 public:
 	NodeController();
 	virtual ~NodeController();

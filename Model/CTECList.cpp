@@ -65,4 +65,7 @@ Type CTECList<Type> :: removeFromEnd()
 			}
 			returnValue = end->getValue();
         }
-        }   }
+        }
+    
+    
+    }
