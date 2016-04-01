@@ -14,6 +14,10 @@ NodeController::~NodeController()
 	// TODO Auto-generated destructor stub
 }
 
+void NodeController::merge(int data[], int sizeOne, int sizeTwo);
+{
+    int * temp
+}
 void NodeController::start()
 {
 	arrayTimer.startTimer();
