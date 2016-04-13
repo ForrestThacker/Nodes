@@ -32,7 +32,10 @@ template <class Type>
         int getHieght();
         bool isBalanced();
         TreeNode<Type> * getRoot();
-        
+        void preorderTraversal(CTECBinaryTree <Type> * currentNode);
+        void inorderTraversal(CTECBinaryTree <Type> * currentNode);
+        void postorderTraversal(CTECBinaryTree <Type> * currentNode);
     };
+    
 }
 #endif /* CTECBinaryTree_hpp */
