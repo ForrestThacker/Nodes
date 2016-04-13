@@ -9,7 +9,7 @@
 #ifndef CTECBinaryTree_hpp
 #define CTECBinaryTree_hpp
 
-#include <stdio.h>
+#include "TreeNode.hpp"
 namespace CTECData
 {
 template <class Type>
