@@ -16,8 +16,9 @@ template <class Type>
     class CTECBinaryTree
     {
     private:
+        void calculateSize(TreeNode,Type> * currentNode);
         int size;
-        TreeNode <Type> * root;
+        TreeNode<Type> * root;
         int height;
         bool balanced;
         bool contains(Type value, CTECBinaryTree <Type> * currentTree);
@@ -29,7 +30,7 @@ template <class Type>
         Type remove(const Type& value);
         bool contains(Type value);
         int getSize();
-        int getHieght();
+        int getHeight();
         bool isBalanced();
         TreeNode<Type> * getRoot();
         void preorderTraversal(CTECBinaryTree <Type> * currentNode);
