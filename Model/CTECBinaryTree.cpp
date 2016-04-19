@@ -27,6 +27,7 @@ int CTECBinaryTree<Type> :: getSize()
     return size;
 }
 
+template<class Type>
 template <class Type>
 int CTECBinaryTree<Type> :: calcuateSize(TreeNode<Type * currentNode)
 {
@@ -39,7 +40,7 @@ int CTECBinaryTree<Type> :: calcuateSize(TreeNode<Type * currentNode)
 }
 
 template <class Type>
-TreeNode,Type * CTECBinaryTree<Type> :: getRoot();
+TreeNode<Type * CTECBinaryTree<Type> :: getRoot();
 template <class Type>
 void CTECBinaryTree<Type> :: preorderTraversal(TreeNode<Type> * currentNode);
 {

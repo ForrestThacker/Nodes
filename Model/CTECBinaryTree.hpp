@@ -22,7 +22,8 @@ template <class Type>
         int height;
         bool balanced;
         bool contains(Type value, CTECBinaryTree <Type> * currentTree);
-        
+        TreeNode<Type> * getRightMostChild(CTECBinaryTree<Type> leftsubTree;
+        TreeNode<Type> * getLeftMostChild(CTEinaryTree<Type> rightsubTree);
     public:
         CTECBinaryTree();
         ~CTECBinaryTree();
