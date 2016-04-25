@@ -16,7 +16,7 @@ CTECBinaryTree<Type :: CTECBinaryTree()
     rhis->root = nullptr;
     this-size = 0;
     this-height = 0;
-    this-baanced = true;
+    this-balanced = true;
 }
 
 template <class Type>
@@ -34,7 +34,7 @@ int CTECBinaryTree<Type> :: calcuateSize(TreeNode<Type * currentNode)
     if(currentNode != nullptr)
     {
         calculateSize(currentNode->GetLeftChild());
-        calculateSize(currentNode->GetRigtChild());
+        calculateSize(currentNode->GetRightChild());
         size++;
     }
 }
@@ -130,7 +130,8 @@ template <class Type>
 
             }
 
-
+template <class Type>
+void CTECBinaryTree<Type>
 
 
 
