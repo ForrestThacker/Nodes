@@ -9,6 +9,18 @@
 #ifndef CTECHashTable_hpp
 #define CTECHashTable_hpp
 
+namespace CTECData
+{
+    
+    template <class Type>
+    class CTECHashTable
+    {
+    private:
+        
+    public:
+    };
+};
+
 
 
 #include <stdio.h>
