@@ -32,6 +32,7 @@ namespace CTECData
         int size()const;
         bool isEdge(int source, int target)const;
         std::set<int> neighbors(int vertex) const;
+        void depthFitTraversal(CtecGraph<Type> graph, int index)
         
         
         

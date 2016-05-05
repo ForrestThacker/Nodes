@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3306298E1CDBC7270034ACFC /* CTECHashTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3306298C1CDBC7270034ACFC /* CTECHashTable.cpp */; };
 		338C394C1CBC1D1C00F3F494 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 338C394A1CBC1D1C00F3F494 /* TreeNode.cpp */; };
 		338C394F1CBC2EA700F3F494 /* CTECBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 338C394D1CBC2EA700F3F494 /* CTECBinaryTree.cpp */; };
 		3398E0AF1C99DDDC000A3DBB /* NodeController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3398E0A11C99DDDC000A3DBB /* NodeController.cpp */; };
@@ -32,6 +33,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3306298C1CDBC7270034ACFC /* CTECHashTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CTECHashTable.cpp; sourceTree = "<group>"; };
+		3306298D1CDBC7270034ACFC /* CTECHashTable.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CTECHashTable.hpp; sourceTree = "<group>"; };
 		338C394A1CBC1D1C00F3F494 /* TreeNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TreeNode.cpp; sourceTree = "<group>"; };
 		338C394B1CBC1D1C00F3F494 /* TreeNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TreeNode.hpp; sourceTree = "<group>"; };
 		338C394D1CBC2EA700F3F494 /* CTECBinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CTECBinaryTree.cpp; sourceTree = "<group>"; };
@@ -111,6 +114,8 @@
 				338C394E1CBC2EA700F3F494 /* CTECBinaryTree.hpp */,
 				33CE22621CCE8FC900E30CAE /* CTECGraph.cpp */,
 				33CE22631CCE8FC900E30CAE /* CTECGraph.hpp */,
+				3306298C1CDBC7270034ACFC /* CTECHashTable.cpp */,
+				3306298D1CDBC7270034ACFC /* CTECHashTable.hpp */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -180,6 +185,7 @@
 				3398E0B01C99DDDC000A3DBB /* NodeRunner.cpp in Sources */,
 				338C394F1CBC2EA700F3F494 /* CTECBinaryTree.cpp in Sources */,
 				3398E0B51C99DDDD000A3DBB /* Timer.cpp in Sources */,
+				3306298E1CDBC7270034ACFC /* CTECHashTable.cpp in Sources */,
 				3398E0B11C99DDDD000A3DBB /* ArrayNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

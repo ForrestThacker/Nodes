@@ -101,7 +101,7 @@ template<class Type>
             std::set<int> connections = currentGraph.neighbors(vertex);
             std::set<int>:: iterator setIterator;
             
-            markedVertices[vertex] = ture;
+            markedVertices[vertex] = true;
             cout << currentGraph[vertex] << endl;
             
             for(setIterator = connections.begin(); setIterator != connections.end(); setIterator++)
